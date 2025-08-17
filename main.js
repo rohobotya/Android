@@ -34,7 +34,7 @@ document.getElementById('loginBtn').addEventListener('click', () => {
                 if (snapshot.exists()) {
                     const userData = snapshot.val();
                     if (userData.approved && userData.prepayment_status === "approved") {
-                        window.location.href = "https://rohobotya.github.io/www.zowipromotion.com/";
+                        window.location.href = "https://learn.udacity.com/nanodegrees/nd940-gc-251/resume-learningd_i=1";
                     } else {
                         statusEl.textContent = "Account not approved or prepayment pending.";
                         statusEl.style.color = "red";
